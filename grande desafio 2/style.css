@@ -63,6 +63,10 @@ section#s4{
     background-size: cover;
     background-attachment: fixed;
 }
+section.imagem > p{
+    background-color: rgba(51, 51, 51, 0.712);
+    width: 300px;
+}
 
 
 footer{
