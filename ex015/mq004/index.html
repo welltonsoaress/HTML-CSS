@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>MEDIA QUERY</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Saiba mais</a></li>
+                <li><a href="#">Trabalhe conosco</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <h2>Testando media queries</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus architecto nostrum molestiae veritatis accusantium quasi harum minus ab laudantium eligendi magnam sapiente unde, dolorum praesentium? Doloremque quidem impedit maiores! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione reprehenderit incidunt unde tempora deleniti fugiat aperiam sequi ipsa debitis, quas accusantium magni animi ab ea inventore officia facere dolorem facilis.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quos adipisci reprehenderit, molestias praesentium veritatis! Aspernatur, delectus quasi quae incidunt ex atque esse quo nesciunt, iste, deleniti maxime ullam facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis omnis dignissimos suscipit laudantium a aliquam architecto recusandae eum vitae vero soluta dolorem necessitatibus fugit, et corrupti debitis deserunt laborum iusto!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis odit tenetur enim, amet sed voluptate recusandae ullam pariatur, excepturi quisquam asperiores ratione error assumenda doloribus molestias ex quos? Numquam, id!</p>
+       
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
